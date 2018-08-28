@@ -57,7 +57,7 @@ nav li {
   padding-left: 1rem;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   nav.mobile {
     display: none;
   }
@@ -91,4 +91,32 @@ nav li {
 .content.img img{
   width: 100%;
   height: auto;
+}
+
+/* Courses Section */
+
+.container.courses {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.courses.desktop {
+  width: 25%;
+}
+
+.courses.desktop img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1600px) {
+  .courses.mobile {
+    display: none;
+  }
 }
