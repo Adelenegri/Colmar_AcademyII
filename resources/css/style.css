@@ -12,3 +12,83 @@ html {
 html {
   font-size: 16px;
 }
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem 1.5rem;
+}
+
+section {
+  width: 60%;
+}
+
+section img {
+  width: 100%;
+}
+
+aside {
+  width: 40%;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  height: 4rem;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 2rem;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  nav.mobile {
+    display: none;
+  }
+}
+
+/* Landing Section */
+
+.supporting.banner button {
+  color: white;
+  background-color: grey;
+  padding: 0.5rem;
+  border-radius: 15px;
+  width:
+}
+
+/* Information Section */
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.content.img {
+  width: 35%;
+}
+
+.content.box {
+  width: 65%;
+}
+
+.content.img img{
+  width: 100%;
+  height: auto;
+}
