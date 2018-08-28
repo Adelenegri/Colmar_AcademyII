@@ -120,3 +120,9 @@ nav li {
     display: none;
   }
 }
+
+/* Thesis Section */
+
+video {
+  width: 100%;
+}
