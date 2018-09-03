@@ -130,12 +130,26 @@ nav li {
 }
 
 .courses.desktop {
-  width: 25%;
+  width: 28%;
+  margin: 1rem 1rem;
+}
+
+.courses.desktop.first {
+  margin-left: 3rem;
 }
 
 .courses.desktop img {
   width: 100%;
   height: auto;
+}
+
+.course.box {
+  margin: 1rem 1rem;
+}
+
+.course.box p {
+  text-transform: uppercase;
+  margin: 0.5rem 0;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -150,9 +164,13 @@ video {
   width: 100%;
 }
 
-.thesis.section {
-  display: flex;
+.thesis.mobile h3 {
+  margin: 1.5rem 0 0.5rem 0;
 }
+
+/*.thesis.section {
+  display: flex;
+}*/
 
 /* Footer Section */
 
