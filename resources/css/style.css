@@ -36,6 +36,10 @@ h1, h2 {
   font-weight: bold;
 }
 
+aside {
+  padding-left: 1.5rem;
+}
+
 /* Header */
 
 header {
@@ -125,4 +129,10 @@ nav li {
 
 video {
   width: 100%;
+}
+
+/* Footer Section */
+
+.footer.mobile {
+  flex: 1;
 }
