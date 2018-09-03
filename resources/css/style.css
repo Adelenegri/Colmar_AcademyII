@@ -30,14 +30,16 @@ section img {
 
 aside {
   width: 40%;
+  padding-left: 1.5rem;
 }
 
 h1, h2 {
   font-weight: bold;
 }
 
-aside {
-  padding-left: 1.5rem;
+.title {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 /* Header */
@@ -89,7 +91,7 @@ nav li {
   padding: 1rem 1rem;
 }
 
-.content.img.orientation {
+.content.img.first {
   padding-top: 0;
 }
 
@@ -113,15 +115,16 @@ nav li {
 .information.desktop p {
   margin-top: 1.5rem;
 }
+
 /* Courses Section */
 
-.container.courses {
+/*.container.row {
   flex-direction: row;
   justify-content: center;
-}
+}*/
 
 .gallery {
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -145,6 +148,10 @@ nav li {
 
 video {
   width: 100%;
+}
+
+.thesis.section {
+  display: flex;
 }
 
 /* Footer Section */
