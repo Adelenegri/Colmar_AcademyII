@@ -73,7 +73,7 @@ nav li {
   color: white;
   background-color: grey;
   padding: 0.5rem;
-  border-radius: 15px;
+  border-radius: 10px;
   width:
 }
 
@@ -86,17 +86,33 @@ nav li {
 
 .content.img {
   width: 35%;
+  padding: 1rem 1rem;
+}
+
+.content.img.orientation {
+  padding-top: 0;
 }
 
 .content.box {
   width: 65%;
 }
 
-.content.img img{
+.content.box p {
+  margin: 0.5rem auto;
+}
+
+.content.img img {
   width: 100%;
   height: auto;
 }
 
+.information h2 {
+  margin-top: 2rem;
+}
+
+.information.desktop p {
+  margin-top: 1.5rem;
+}
 /* Courses Section */
 
 .container.courses {
