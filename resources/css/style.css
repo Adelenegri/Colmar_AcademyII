@@ -14,6 +14,10 @@ html {
   font-family: Open Sans;
 }
 
+body {
+  line-height: 1.4;
+}
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -87,8 +91,13 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+h1, h2 {
+  font-family: Lato;
+}
+
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  line-height: 1.1;
 }
 
 h2 {
@@ -108,6 +117,7 @@ h3 {
 .description {
   font-family: Lora;
   font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
 /* Header */
@@ -124,6 +134,8 @@ header {
   align-items: center;
   height: 2rem;
   text-transform: uppercase;
+  font-family: Lato;
+  font-size: 1.25rem;
 }
 
 nav li {
@@ -143,12 +155,30 @@ nav li {
   font-size: 2rem;
 }*/
 
+/*.supporting.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}*/
+
+.container.landing {
+  align-items: center;
+}
+
 .supporting.banner button {
   color: white;
   background-color: grey;
   padding: 0.5rem;
   border-radius: 10px;
-  width:
+  width: 80%;
+  font-family: Lato;
+  font-size: 1rem;
+}
+
+.description.banner {
+  padding: 1.75rem 0;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 /* Information Section */
@@ -156,27 +186,33 @@ nav li {
 .card {
   display: flex;
   align-items: center;
+  padding: 1rem 1rem;
+}
+
+.card.first {
+  padding-top: 0;
 }
 
 .content.img {
   width: 35%;
-  padding: 1rem 1rem;
+  /*padding: 1rem 1rem;*/
 }
 
-.content.img.first {
+/*.content.img.first {
   padding-top: 0;
-}
+}*/
 
 .content.box {
   width: 65%;
+  padding-left: 1rem;
   /*display: flex;
   align-items: center;
   flex-direction: row;*/
 }
 
-.content.box.first {
+/*.content.box.first {
   padding-bottom: 0.5rem;
-}
+}*/
 
 .content.box p {
   margin: 0.5rem auto;
@@ -199,6 +235,9 @@ nav li {
 
 .information.desktop p {
   margin-top: 1.5rem;
+}
+
+.author {
   font-size: 0.75rem;
 }
 
