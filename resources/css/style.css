@@ -12,6 +12,7 @@ html {
 html {
   font-size: 16px;
   font-family: Open Sans;
+  color: rgb(105, 105, 105);
 }
 
 body {
@@ -127,7 +128,7 @@ header {
   height: 4rem;
   align-items: center;
   padding: 0 1.5rem;
-  background-color: rgba(255, 255, 0, 0.5);
+  background-color: rgba(255, 245, 0, 0.5);
   color: rgb(105, 105, 105);
 }
 
@@ -196,22 +197,27 @@ nav li {
   padding: 1.75rem 0;
   font-size: 1.5rem;
   font-weight: normal;
-  color: rgba(30, 46, 255, 0.9)
+  color: rgba(30, 46, 255, 1)
 }
 
 /* Information Section */
 
 .container.information {
-  background-color: grey;
+  /*background-color: rgba(255, 245, 0, 0.5);*/
 }
 .card {
   display: flex;
   align-items: center;
   padding: 1rem 1rem;
+  /*background-color: rgba(0, 227, 255, 0.3)*/
 }
 
 .card.first {
   padding-top: 0;
+}
+
+.card.guest {
+  background-color: rgba(0, 227, 255, 0.3);
 }
 
 .content.img {
@@ -235,6 +241,10 @@ nav li {
   padding-bottom: 0.5rem;
 }*/
 
+.content.box.orientation h3 {
+  color: rgb(255 136 8);
+}
+
 .content.box p {
   margin: 0.5rem auto;
   font-size: 0.8rem;
@@ -251,8 +261,13 @@ nav li {
   height: auto;
 }
 
+.information.desktop {
+  background-color: rgba(255, 245, 0, 0.5);
+}
+
 .information h2 {
   padding-top: 2rem;
+  color: rgb(255 110 8);
 }
 
 .information.desktop p {
