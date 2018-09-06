@@ -304,6 +304,43 @@ a:active {
   font-size: 0.75rem;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1600px) {
+  .img.mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .information.desktop {
+    display: none;
+  }
+
+  aside.supporting.information {
+    width: 100%;
+    padding: 0 0;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 1rem 1rem 2rem 1rem;
+    align-items: flex-start;
+  }
+
+  .content.img {
+    width: 100%;
+  }
+
+  .content.box.info {
+    width: 100%;
+  }
+
+  aside.supporting.information h3 {
+    padding-top: 1rem;
+  }
+}
+
+
+
 /* Courses Section */
 
 .courses {
