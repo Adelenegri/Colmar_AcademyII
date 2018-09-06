@@ -11,7 +11,7 @@ html {
 
 html {
   font-size: 16px;
-  font-family: Open Sans;
+  font-family: Open Sans, Helvetica, sans-serif;
   color: rgb(105, 105, 105);
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 h1 {
@@ -99,7 +99,7 @@ a {
 }
 
 .description {
-  font-family: Lora;
+  font-family: Lora, Georgia, serif;
   font-size: 1rem;
   letter-spacing: 0.02em;
 }
@@ -120,7 +120,7 @@ header {
   align-items: center;
   height: 2rem;
   text-transform: uppercase;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   color: rgba(79, 28, 194, 0.9);
@@ -146,7 +146,7 @@ a:link {
 }
 
 a:visited {
-  color: rgba(0, 227, 255, 0.3);
+  color: rgb(0 227 255);
 }
 
 a:hover {
@@ -185,6 +185,11 @@ a:active {
   font-size: 1rem;
   font-weight: bold;
   border: 1px solid rgb(255 110 8);
+}
+
+.supporting.banner button:hover {
+  background-color: rgba(79, 28, 194, 0.8);
+  transition: background-color 2s ease-out 1s;
 }
 
 .description.banner {
@@ -231,9 +236,7 @@ a:active {
 
 .content.box a {
   font-size: 0.8rem;
-  text-decoration: none;
   font-weight: bold;
-  color: rgb(1 196 188);
 }
 
 .content.img img {
@@ -332,6 +335,7 @@ video {
 footer {
   font-size: 0.75rem;
   padding: 1rem 1.5rem;
+  background-color: rgba(192, 192, 192, 0.3);
 }
 
 .footer.mobile {
