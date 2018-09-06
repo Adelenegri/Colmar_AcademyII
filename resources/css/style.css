@@ -72,11 +72,12 @@ body {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  padding: 2rem 1.5rem;
+  /*padding: 2rem 1.5rem;*/
 }
 
 section {
   width: 60%;
+  padding: 2rem 1.5rem;
 }
 
 section img {
@@ -85,7 +86,8 @@ section img {
 
 aside {
   width: 40%;
-  padding-left: 1.5rem;
+  /*padding-left: 1.5rem;*/
+  padding: 2rem 0;
 }
 
 h1, h2, h3 {
@@ -99,7 +101,8 @@ h1, h2 {
 h1 {
   font-size: 3rem;
   line-height: 1.1;
-  color: rgb(255 136 8);
+  color: rgb(255 110 8);
+  text-shadow: 4px 4px rgba(255, 245, 0, 0.4);
 }
 
 h2 {
@@ -112,7 +115,7 @@ h3 {
 
 
 .title {
-  padding-top: 2rem;
+  padding: 2rem 0;
   text-align: center;
 }
 
@@ -128,7 +131,7 @@ header {
   height: 4rem;
   align-items: center;
   padding: 0 1.5rem;
-  background-color: rgba(255, 245, 0, 0.5);
+  background-color: rgba(255, 245, 0, 0.4);
   color: rgb(105, 105, 105);
 }
 
@@ -141,11 +144,13 @@ header {
   font-family: Lato;
   font-size: 1.25rem;
   font-weight: bold;
-  color: rgba(0, 227, 255, 1);
+  color: rgba(30, 46, 255, 0.8);
+  text-shadow: 2px 2px rgba(0, 227, 255, 0.3);
 }
 
 .logo span {
-  color: rgb(30 46 255);
+  color: rgb(255 110 8);
+  text-shadow: 2px 2px rgb(255, 250, 250);
 }
 
 nav li {
@@ -155,7 +160,8 @@ nav li {
 
 .login {
   font-weight: bold;
-  color: rgb(30 46 255);
+  color: rgb(0 227 255);
+  text-shadow: 2px 2px rgb(255, 250, 250);
   /*font-size: 1.1rem;*/
 }
 
@@ -179,31 +185,33 @@ nav li {
 
 .container.landing {
   align-items: center;
-  /*background-color: rgba(255, 232, 0, 0.1);*/
+  background-color: rgba(255, 245, 0, 0.1);
 }
 
 .supporting.banner button {
-  color: rgb(30 46 255);
-  background-color: rgba(0, 227, 255, 0.5);
+  color: rgb(30, 46, 255);
+  background-color: rgba(0, 227, 255, 0.3);
   padding: 0.5rem;
   border-radius: 10px;
   width: 80%;
   font-family: Lato;
   font-size: 1rem;
   font-weight: bold;
+  border: 1px solid rgb(255 110 8);
 }
 
 .description.banner {
   padding: 1.75rem 0;
   font-size: 1.5rem;
   font-weight: normal;
-  color: rgba(30, 46, 255, 1)
+  color: rgba(30, 46, 255, 0.9);
+  /*text-shadow: 2px 2px rgb(0, 227, 255, 0.3)*/
 }
 
 /* Information Section */
 
 .container.information {
-  /*background-color: rgba(255, 245, 0, 0.5);*/
+  background-color: rgba(192, 192, 192, 0.3);
 }
 .card {
   display: flex;
@@ -213,11 +221,16 @@ nav li {
 }
 
 .card.first {
-  padding-top: 0;
+  /*padding-top: 0;*/
+  background-color: rgba(0, 227, 255, 0.2);
 }
 
 .card.guest {
-  background-color: rgba(0, 227, 255, 0.3);
+  background-color: rgba(0, 227, 255, 0.2);
+}
+
+.card.guest h3{
+  color: rgb(30 46 255);
 }
 
 .content.img {
@@ -242,7 +255,7 @@ nav li {
 }*/
 
 .content.box.orientation h3 {
-  color: rgb(255 136 8);
+  color: rgb(255 110 8);
 }
 
 .content.box p {
@@ -262,12 +275,13 @@ nav li {
 }
 
 .information.desktop {
-  background-color: rgba(255, 245, 0, 0.5);
+  /*background-color: rgba(30, 46, 255, 0.2);*/
 }
 
 .information h2 {
   padding-top: 2rem;
-  color: rgb(255 110 8);
+  color: rgb(30 46 255);
+  text-shadow: 4px 4px rgba(0, 227, 255, 0.3);
 }
 
 .information.desktop p {
@@ -286,7 +300,12 @@ nav li {
 }*/
 
 .courses {
-  background-color: rgba(255, 232, 0, 0.1);
+  background-color: rgba(255, 245, 0, 0.4);
+  /*padding: 0 4.5rem 1.5rem 4.5rem;*/
+}
+
+.courses h2 {
+  color: rgb(255 110 8)
 }
 
 .gallery {
@@ -294,11 +313,13 @@ nav li {
   flex-wrap: wrap;
   /*align-items: flex-start;*/
   /*flex-direction: column;*/
+  margin: 0 4.5rem 1.5rem 4.5rem;
 }
 
 .courses.desktop {
   width: 28%;
-  margin: 1rem 1rem;
+  margin: 0 1rem 2rem 1rem;
+  background-color: white;
   /*flex: 1;*/
   /*flex: 1;*/
 }
@@ -313,12 +334,12 @@ nav li {
 }
 
 .course.box {
-  margin: 1rem 1rem;
+  padding: 1rem 0 1.5rem 1rem;
 }
 
 .course.box p {
   text-transform: uppercase;
-  margin: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -335,11 +356,31 @@ video {
 
 .thesis.mobile h3 {
   margin: 1.5rem 0 0.5rem 0;
+  color: rgba(245, 96, 8, 1);
 }
 
-.thesis {
-  background-color: blue;
+.thesis h2 {
+  /*background-color: blue;*/
+  color: rgb(30 46 255);
 }
+
+/*.thesis.description {
+  background-color: rgba(255, 245, 0, 0.5);
+}*/
+
+.card.first.thesis {
+  background-color: rgba(0, 227, 255, 0.3);
+}
+
+.card.first.thesis h3 {
+  color: rgb(30 46 255);
+}
+
+.card.thesis {
+  background-color: rgba(255, 245, 0, 0.3);
+}
+
+
 
 /*.thesis.section {
   /*display: flex;
@@ -349,6 +390,7 @@ video {
 
 footer {
   font-size: 0.75rem;
+  padding: 1rem 1.5rem;
 }
 
 .footer.mobile {
