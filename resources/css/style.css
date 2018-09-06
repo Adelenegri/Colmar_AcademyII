@@ -131,7 +131,7 @@ header {
   height: 4rem;
   align-items: center;
   padding: 0 1.5rem;
-  background-color: rgba(255, 245, 0, 0.4);
+  background-color: rgba(192, 192, 192, 0.4);
   color: rgb(105, 105, 105);
 }
 
@@ -144,7 +144,7 @@ header {
   font-family: Lato;
   font-size: 1.25rem;
   font-weight: bold;
-  color: rgba(30, 46, 255, 0.8);
+  color: rgba(79, 28, 194, 0.9);
   text-shadow: 2px 2px rgba(0, 227, 255, 0.3);
 }
 
@@ -161,7 +161,7 @@ nav li {
 .login {
   font-weight: bold;
   color: rgb(0 227 255);
-  text-shadow: 2px 2px rgb(255, 250, 250);
+  text-shadow: 2px 2px rgba(255, 250, 250);
   /*font-size: 1.1rem;*/
 }
 
@@ -189,7 +189,7 @@ nav li {
 }
 
 .supporting.banner button {
-  color: rgb(30, 46, 255);
+  color: rgb(79 28 194);
   background-color: rgba(0, 227, 255, 0.3);
   padding: 0.5rem;
   border-radius: 10px;
@@ -204,7 +204,7 @@ nav li {
   padding: 1.75rem 0;
   font-size: 1.5rem;
   font-weight: normal;
-  color: rgba(30, 46, 255, 0.9);
+  color: rgba(79, 28, 194, 0.9);
   /*text-shadow: 2px 2px rgb(0, 227, 255, 0.3)*/
 }
 
@@ -220,18 +220,16 @@ nav li {
   /*background-color: rgba(0, 227, 255, 0.3)*/
 }
 
-.card.first {
+.card.info {
   /*padding-top: 0;*/
-  background-color: rgba(0, 227, 255, 0.2);
+  background-color: rgba(255, 245, 0, 0.3);
+  border-bottom: 3px solid rgb(255 110 8);
+  border-top: 3px solid rgb(255 110 8);
+
+  /*color: rgb(79 28 194);*/
 }
 
-.card.guest {
-  background-color: rgba(0, 227, 255, 0.2);
-}
 
-.card.guest h3{
-  color: rgb(30 46 255);
-}
 
 .content.img {
   width: 35%;
@@ -254,8 +252,12 @@ nav li {
   padding-bottom: 0.5rem;
 }*/
 
-.content.box.orientation h3 {
-  color: rgb(255 110 8);
+.content.box.info {
+  /*border-bottom: 3px solid rgb(255 110 8);*/
+}
+
+.content.box.info h3 {
+  color: rgb(79 28 194);
 }
 
 .content.box p {
@@ -267,6 +269,7 @@ nav li {
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: bold;
+  color: rgb(1 196 188);
 }
 
 .content.img img {
@@ -280,8 +283,8 @@ nav li {
 
 .information h2 {
   padding-top: 2rem;
-  color: rgb(30 46 255);
-  text-shadow: 4px 4px rgba(0, 227, 255, 0.3);
+  color: rgb(255 110 08);
+  text-shadow: 4px 4px rgb(255, 250, 250);
 }
 
 .information.desktop p {
