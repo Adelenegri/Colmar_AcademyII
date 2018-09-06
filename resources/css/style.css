@@ -392,7 +392,7 @@ a:active {
     padding-bottom: 1rem;
   }
 
-  .courses.mobile {
+  .courses {
     width: 100%;
     background-color: white;
   }
@@ -433,6 +433,12 @@ video {
 .card.thesis h3 {
   color: rgb(79 28 194);
 }
+
+@media only screen and (max-width: 768px) {
+  .thesis.mobile {
+    width: 100%;
+  }
+  }
 
 /* Footer Section */
 
