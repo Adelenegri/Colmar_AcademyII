@@ -388,18 +388,21 @@ a:active {
     display: none;
   }
 
+  .gallery {
+    padding: 0 1rem;
+  }
+
   .title {
     padding-bottom: 1rem;
   }
 
   .courses {
-    width: 100%;
     background-color: white;
   }
 
   .courses.mobile button {
-    padding: 1rem 0 1.5rem 1rem;
-    margin: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 0;
     width: 100%;
   }
 }
@@ -444,7 +447,7 @@ video {
 
 footer {
   font-size: 0.75rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0 1.5rem 2rem;
   background-color: rgba(192, 192, 192, 0.3);
 }
 
@@ -455,3 +458,10 @@ footer {
 .footer.nav a{
   padding-left: 0.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 1rem 1rem;
+  }
+  }
+  }
