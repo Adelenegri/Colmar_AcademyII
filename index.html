@@ -13,12 +13,12 @@
     <!-- Header Section -->
 
     <header class="container">
-      <div class="logo">
-        <img src="./resources/images/ic-logo.svg"/>
-        <h4><span id="colmar">Colmar</span>academy</h4>
+      <div class="logo desktop">
+        <img src="./resources/images/ic-logo.svg" alt="company logo"/>
+        <h4><span>Colmar</span>academy</h4>
       </div>
       <nav class="desktop">
-        <ul>
+        <ul role="presentation">
           <li><a href="#">On campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">For companies</a></li>
@@ -26,11 +26,11 @@
         </ul>
       </nav>
       <nav class="mobile">
-        <ul>
-          <li><img src="./resources/images/ic-logo.svg"/><li>
-          <li><img src="./resources/images/ic-on-campus.svg"/></li>
-          <li><img src="./resources/images/ic-online.svg"/></li>
-          <li><img src="./resources/images/ic-login.svg"/></li>
+        <ul class="presentation">
+          <li><img src="./resources/images/ic-logo.svg" alt="company logo"/><li>
+          <li><img src="./resources/images/ic-on-campus.svg" alt="icon desk"/></li>
+          <li><img src="./resources/images/ic-online.svg" alt="icon desktop"/></li>
+          <li><img src="./resources/images/ic-login.svg" alt="icon person"/></li>
         </ul>
       </nav>
     </header>
@@ -43,9 +43,9 @@
         <section class="landing">
           <img src="./resources/images/banner.jpg" alt="three students studying on a table"/>
         </section>
-        <aside class="supporting banner">
+        <aside class="banner">
           <h1>Learn something new everyday</h1>
-          <h3 class="description banner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <h3 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <button><a href="#">Start here</a></button>
         </aside>
       </main>
@@ -59,13 +59,13 @@
           <p class="description">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           <p class="author">Emanuel, Sr Strategist at Hiring.com</p>
         </section>
-        <aside class="supporting information">
+        <aside class="information">
           <div class="card info">
-            <div class="content img first">
+            <div class="content img">
               <img class="information desktop"src="./resources/images/information-orientation.jpg" alt="bird's-eye view on a path with three students"/>
               <img class="img mobile"src="./resources/images/information-orientation-mobile.jpg" alt="bird's-eye view on a path with three students"/>
             </div>
-            <div class="content box info">
+            <div class="content box">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
               <a href="#">Read more</a>
@@ -76,7 +76,7 @@
               <img class="information desktop"src="./resources/images/information-campus.jpg" alt="study room"/>
               <img class="img mobile" src="./resources/images/information-campus-mobile.jpg" alt="study room"/>
             </div>
-            <div class="content box info">
+            <div class="content box">
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
               <a href="#">Read more</a>
@@ -87,7 +87,7 @@
               <img class="information desktop" src="./resources/images/information-guest-lecture.jpg" alt="man's portrait"/>
               <img class="img mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="man's portrait"/>
             </div>
-            <div class="content box info">
+            <div class="content box">
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
               <a href="#">Read more</a>
@@ -103,7 +103,7 @@
           <h2 class="title">Start learning</h2>
         <!--</div>-->
         <div class="container gallery">
-          <div class="courses desktop first">
+          <div class="courses desktop">
             <img src="./resources/images/course-software.jpg" alt="two desktops on a desk"/>
             <div class="course box">
               <h3>Software engineering</h3>
@@ -169,17 +169,17 @@
           <h2 class="title">Thesis exhibit</h2>
         <!--</div>-->
         <div class="container thesis">
-          <section class="thesis mobile">
+          <section class="thesis">
             <video src="./resources/videos/thesis.mp4" type="video/mp4" alt="film showing a building from outside at different daytimes" controls>Your browser does not support the video tag.</video>
             <h3 class="thesis desktop">Reimagine urban</h3>
             <p class="description desktop">"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </section>
           <aside class="thesis desktop">
             <div class="card thesis first">
-              <div class="content img first">
+              <div class="content img">
                 <img src="./resources/images/thesis-fisma.jpg" alt="desk with papers and cellphone"/>
               </div>
-              <div class="content box first">
+              <div class="content box">
                 <h3>Fisma: Design and Prototype</h3>
                 <p>Designer showcase of new prototype product</p>
               </div>
@@ -199,10 +199,10 @@
 
     <!-- Footer Section -->
     <footer class="container">
-      <div class="footer mobile">
+      <div class="copyright">
         <p>&copy; 2016 Colmar Academy. All rights reserved</p>
       </div>
-      <div class="footer nav desktop">
+      <div class="nav desktop">
         <a href="#">Terms</a>
         <a href="#">Privacy</a>
       </div>
